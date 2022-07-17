@@ -1,2 +1,0 @@
-specie_name	taxonomy_id	latin_name	monocot_dicotyledon	kingdom	phylum	order	family	tribe	genus
-种

@@ -1,0 +1,29 @@
+specie_name	taxonomy_id	latin_name	kingdom	phylum	Class	order	family	genus
+种	taxonomy_id	拉丁文名	界	门	纲	目	科	属
+Solanum lycopersicum	txid4081	Solanum lycopersicum Dunal L.	Viridiplantae	Angiospermae	Magnoliopsida	Solanales	Solanaceae	Solanum
+Bixa orellana	txid66672	Bixa orellana L.	Viridiplantae	Angiospermae	Magnoliopsida	Malvales	Bixaceae	Bixa
+Astrocaryum aculeatum	txid1128769	Astrocaryum aculeatum G.Mey.	Viridiplantae	Angiospermae	Magnoliopsida	Arecales	Arecaceae	Astrocaryum
+Nelumbo nucifera	txid4432	Nelumbo nucifera Gaertn.	Viridiplantae	Angiospermae	Magnoliopsida	Proteales	Nelumbonaceae	Nelumbo
+Solanum lycopersicum	txid4081	Solanum lycopersicum Dunal L.	Viridiplantae	Angiospermae	Magnoliopsida	Solanales	Solanaceae	Solanum
+Solanum lycopersicum	txid4081	Solanum lycopersicum Dunal L.	Viridiplantae	Angiospermae	Magnoliopsida	Solanales	Solanaceae	Solanum
+Gossypium raimondii	txid29730	Gossypium raimondii Ulbr.	Viridiplantae	Angiospermae	Magnoliopsida	Malvales	Malvaceae	Gossypium
+Silene noctiflora	txid39899	Silene noctiflora L., 1753	Viridiplantae	Angiospermae	Magnoliopsida	Caryophyllales	Caryophyllaceae	Silene
+Silene vulgaris	txid42043	Silene vulgaris (Moench) Garcke, 1869 in [Garcke CAF (1869)]	Viridiplantae	Angiospermae	Magnoliopsida	Caryophyllales	Caryophyllaceae	Silene
+Tetracentron sinense	txid13715	Tetracentron sinense Oliv.	Viridiplantae	Angiospermae	Magnoliopsida	Trochodendrales	Trochodendraceae	Tetracentron
+Agrostemma githago	txid39848	Agrostemma githago L., 1753	Viridiplantae	Angiospermae	Magnoliopsida	Caryophyllales	Caryophyllaceae	Agrostemma
+Macadamia integrifolia	txid60698	Macadamia integrifolia Maiden & Betche	Viridiplantae	Angiospermae	Magnoliopsida	Proteales	Proteaceae	Macadamia
+Libidibia coriaria	txid321550	Libidibia coriaria (Jacq.) Schltdl.	Viridiplantae	Angiospermae	Magnoliopsida	Fabales	Fabaceae	Libidibia
+Haematoxylum brasiletto	txid191923	Haematoxylum brasiletto H.Karst.	Viridiplantae	Angiospermae	Magnoliopsida	Fabales	Fabaceae	Haematoxylum
+Tamarindus indica	txid58860	Tamarindus indica L.	Viridiplantae	Angiospermae	Magnoliopsida	Fabales	Fabaceae	Tamarindus
+Panax notoginseng	txid44586	Panax notoginseng (Burkill) F.H.Chen ex C.Y.Wu & K.M.Feng, 1975 1)	Viridiplantae	Angiospermae	Magnoliopsida	Apiales	Araliaceae	Panax
+Panax quinquefolius	txid44588	Panax quinquefolius L.	Viridiplantae	Angiospermae	Magnoliopsida	Apiales	Araliaceae	Panax
+Bupleurum falcatum	txid46367	Bupleurum falcatum L.	Viridiplantae	Angiospermae	Magnoliopsida	Apiales	Apiaceae	Bupleurum
+Salix purpurea	txid77065	Salix purpurea L., 1753	Viridiplantae	Angiospermae	Magnoliopsida	Malpighiales	Salicaceae	Salix
+Panax vietnamensis	txid106132	Panax vietnamensis Ha & Grushv.	Viridiplantae	Angiospermae	Magnoliopsida	Apiales	Araliaceae	Panax
+Cannabis sativa	txid3483	Cannabis sativa L., 1753	Viridiplantae	Angiospermae	Magnoliopsida	Rosales	Cannabaceae	Cannabis
+Morus notabilis	txid981085	Morus notabilis C.K.Schneid.	Viridiplantae	Angiospermae	Magnoliopsida	Rosales	Moraceae	Morus
+Coriandrum sativum	txid4047	Coriandrum sativum L.	Viridiplantae	Angiospermae	Magnoliopsida	Apiales	Apiaceae	Coriandrum
+Aquilaria sinensis	txid210372	Aquilaria sinensis (Lour.) Spreng.	Viridiplantae	Angiospermae	Magnoliopsida	Malvales	Thymelaeaceae	Aquilaria
+Aconitum kusnezoffii	txid239685	Aconitum kusnezoffii Rchb.	Viridiplantae	Angiospermae	Magnoliopsida	Ranunculales	Ranunculaceae	Aconitum
+Capsicum chinense	txid80379	Capsicum chinense Jacq.	Viridiplantae	Angiospermae	Magnoliopsida	Solanales	Solanaceae	Capsicum
+Platycodon grandiflorus	txid94286	Platycodon grandiflorus (Jacq.) A.DC.	Viridiplantae	Angiospermae	Magnoliopsida	Asterales	Campanulaceae	Platycodon
