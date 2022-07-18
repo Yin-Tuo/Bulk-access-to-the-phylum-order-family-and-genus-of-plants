@@ -84,11 +84,22 @@ with open(out_file, "w", encoding='UTF-8') as f:
         '种', 'taxonomy_id', '拉丁文名', '界', '门', '纲', '目', '科', '属'
     ))
     i = 0
-    for specie in all_species:
-        specieinfo.inputname(name=specie)
-        specieinfo.catch_NCBI(s)
-        specieinfo.inputfamily(s)
-        specieinfo.catch_iplant(s)
+    for species in all_species:
+        specie_name = re.findall('[A-Z][^A-Z]*', species)[0]
+        specie = re.findall('[A-Z][^0-9]*', specie_name)[0]
+        while True:
+            try:
+                specieinfo.inputname(name=specie)
+                specieinfo.catch_NCBI(s)
+                specieinfo.inputfamily(s)
+                specieinfo.catch_iplant(s)
+                break
+            except Exception:
+                continue
+        # specieinfo.inputname(name=specie)
+        # specieinfo.catch_NCBI(s)
+        # specieinfo.inputfamily(s)
+        # specieinfo.catch_iplant(s)
         table = specieinfo.catch_iplant(s)
         f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(
             table[0],
