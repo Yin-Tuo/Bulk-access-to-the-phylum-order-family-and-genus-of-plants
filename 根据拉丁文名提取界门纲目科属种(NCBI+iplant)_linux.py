@@ -47,7 +47,7 @@ class specieinfo():
                 order = plantinfo.find_element(By.CSS_SELECTOR, 'a[alt = order]').text
                 family = plantinfo.find_element(By.CSS_SELECTOR, 'a[alt = family]').text
                 genus = plantinfo.find_element(By.CSS_SELECTOR, 'a[alt = genus]').text
-                nphylum_info_specie = str(specie_name) + "\n" + str(taxonomy_id) + "\n" + latin_name + "\n" + str(kingdom) + "\n" + str(Class) + "\n" + str(family) + "\n" + str(order) + "\n" + str(genus)
+                nphylum_info_specie = str(specie_name) + "\n" + str(taxonomy_id) + "\n" + latin_name + "\n" + str(kingdom) + "\n" + str(Class) + "\n" + str(order) + "\n" + str(family) + "\n" + str(genus)
                 s.nphylum_info_specie = re.split('\n', nphylum_info_specie)
                 # print(s.nphylum_info_specie)
                 return s.nphylum_info_specie
@@ -56,7 +56,9 @@ class specieinfo():
     def inputfamily(s):
         while True:
             if phyluminfo.find_element(By.ID, "key").is_displayed():
-                phyluminfo.find_element(By.ID, "key").send_keys(s.nphylum_info_specie[7])
+                # print(s.nphylum_info_specie[6])
+                # print(s.nphylum_info_specie)
+                phyluminfo.find_element(By.ID, "key").send_keys(s.nphylum_info_specie[6])
                 phyluminfo.find_element(By.CLASS_NAME, "searchbtn").click()
                 break
             else:
@@ -85,12 +87,14 @@ with open(out_file, "w", encoding='UTF-8') as f:
     ))
     i = 0
     for species in all_species:
+        print("=" * 10, "seq", i + 1, "->", species, "on the way", "=" * 10)
         specie_name = re.findall('[A-Z][^A-Z]*', species)[0]
         specie = re.findall('[A-Z][^0-9]*', specie_name)[0]
+        # print(specie)
+        specieinfo.inputname(name=specie)
+        specieinfo.catch_NCBI(s)
         while True:
             try:
-                specieinfo.inputname(name=specie)
-                specieinfo.catch_NCBI(s)
                 specieinfo.inputfamily(s)
                 specieinfo.catch_iplant(s)
                 break
@@ -98,8 +102,8 @@ with open(out_file, "w", encoding='UTF-8') as f:
                 continue
         # specieinfo.inputname(name=specie)
         # specieinfo.catch_NCBI(s)
-        # specieinfo.inputfamily(s)
-        # specieinfo.catch_iplant(s)
+        #specieinfo.inputfamily(s)
+        #specieinfo.catch_iplant(s)
         table = specieinfo.catch_iplant(s)
         f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(
             table[0],
@@ -108,8 +112,8 @@ with open(out_file, "w", encoding='UTF-8') as f:
             table[3],
             table[8],
             table[4],
-            table[6],
             table[5],
+            table[6],
             table[7],))
         i += 1
         plantinfo.back()
