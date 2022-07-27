@@ -5,6 +5,3 @@
                           biopython：conda install biopython  
 3、谷歌浏览器驱动下载地址：  
 http://npm.taobao.org/mirrors/chromedriver/  
-  
-  
-第一个科研小工具(●'◡'●)，代码比较混乱，请海涵！！！！！！！！！！！！！！！！！  
